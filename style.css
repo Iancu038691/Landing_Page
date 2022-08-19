@@ -81,3 +81,42 @@ button {
     height: 300px;
 
 }
+.MiddleText {
+    font-weight: 700;
+    font-size: 36px;
+    color: #1f2937;
+}
+.middle1 {
+   display: flex;
+   flex-direction: column; 
+   margin: 50px 0 200px 0;
+}
+.ImageOne img {
+    width: 200px;
+    height: 200px;
+    border-radius: 18px;
+}
+.MiddleText {
+    margin: 0 auto;
+}
+.ImageText {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 80px;
+    text-align: center;
+    
+
+}
+
+.TextOne {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 100px;
+}
