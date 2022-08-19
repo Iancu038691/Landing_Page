@@ -20,8 +20,10 @@ body {
     padding: 18px 200px 100px 200px;
 }
 .HeaderLogo {
-    font-size: 18px;
-    color:#e5e7eb
+    font-size: 24px;
+    color:#F9faf8;
+    font-weight: 900;
+
 }
 ul {
     display: flex;
@@ -36,8 +38,46 @@ ul {
 .firstContent {
     display: flex;
     justify-content: space-between;
+    flex-shrink: 0;
 }
 a {
     text-decoration: none;
     color: #e5e7eb;
+}
+.secondContent {
+    display: flex;
+    justify-content: space-between;
+}
+.secondText {
+   font-size: 18px;
+   color: #e5e7eb; 
+   flex-wrap: wrap;
+}
+.firstText {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.secondContent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 18px 0;
+}
+.textHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+button {
+    background: #3882f6;
+    color: #F9faf8;
+    padding: 5px 27px;
+    font-size: 18px;
+    border-radius: 14px;
+}
+.secondContent img {
+    width: 1000px;
+    height: 300px;
+
 }
